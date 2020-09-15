@@ -1,22 +1,56 @@
+.headline{
+	font-size: 20px;
+	font-weight: 600;
+}
+input{
+	/*去除阴影*/
+	box-shadow:none;
+	/*聚焦input的蓝色边框*/
+	outline: none;
+	/*textarea 禁止拖拽*/
+	resize: none; 
+	/*去除边框*/
+	border: none; 
+	/*常用于IOS下移除原生样式*/
+
+	-webkit-appearance: none;
+	/*点击高亮的颜色*/
+	-webkit-tap-highlight-color:rgba(0,0,0,0); 
+
+	width: 80%;
+	height: 80%;
+}
+
+.toolbar-card{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 25px;
+}
+.input{
+	background-color: #f1f3f4;
+}
+.mc-appbar .toolbar .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 722px;
+    height: 38px;
+    margin-left: 30px;
+    background-color: #f1f3f4;
+    border-radius: 8px;
+    transition-duration: .18s;
+    transition-property: background-color,box-shadow;
+}
 #myInput {
-	background-image:url('//www.jq22.com/tp/6368374909440002249842396.png');
-	/* 搜索按钮 */
-			background-position:10px 12px;
-	/* 定位搜索按钮 */
-			background-repeat:no-repeat;
-	/* 不重复图片*/
-			width:100%;
 	font-size:16px;
-	/* 加大字体 */
-			padding:12px 20px 12px 40px;
-	border:1px solid #ddd;
-	margin-bottom:12px;
 }
 #myUL {
 	/* 移除默认的列表样式 */
-			list-style-type:none;
+	list-style-type:none;
 	padding:0;
-	margin:0;
+	margin-top:20px;
 }
 #myUL li a {
 	border:1px solid #ddd;
