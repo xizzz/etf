@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style/index.css" />
+    <link href="https://cdn.bootcdn.net/ajax/libs/mdui/1.0.0/css/mdui.min.css" rel="stylesheet">
     <script  type="text/javascript" src="./js/index.js"></script>
-    <title>Document</title>
+    <title>ETF查询</title>
 </head>
 <body>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="搜索...">
+<div class="mdui-appbar-with-toolbar">
+    <div class="mc-appbar mdui-appbar mdui-appbar-fixed toolbar-card">
+        <div class="toolbar mdui-toolbar">
+            <button class="drawer mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon material-icons">menu</i></button>
+            <a style="color:#3F51B5" class="headline" href="/">ETF查询</a>
+            <form method="get" class="search-bar"></button><button type="submit" class="submit mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons mdui-text-color-theme-icon">search</i></button><input type="text" id="myInput" class="input" onkeyup="myFunction()" placeholder="搜索基金名称或者代码"></form>
+            
+        </div>
+    </div>
+</div>
 
 <ul id="myUL">
-    <li><a href="###" class="header">A</a></li>
+    <li><a href="###" class="header">科技</a></li>
     <li><a href="###">159801 芯片基金</a></li>
-    <li><a href="###">Agnes</a></li>
+    <li><a href="###">159806 能源车</a></li>
+    <li><a href="###">159807 科技ETF</a></li>
+    <li><a href="###">159813 芯片</a></li>
+    <li><a href="###">159995 芯片</a></li>
 
-    <li><a href="###" class="header">B</a></li>
-    <li><a href="###">Billy</a></li>
-    <li><a href="###">Bob</a></li>
+    <li><a href="###" class="header">指数</a></li>
+    <li><a href="###">159808 创业板RT</a></li>
+    <li><a href="###">159809 浦银创业</a></li>
 
-    <li><a href="###" class="header">C</a></li>
-    <li><a href="###">Calvin</a></li>
-    <li><a href="###">Christina</a></li>
-    <li><a href="###">Cindy</a></li>
+
 </ul>
 </body>
 </html>
